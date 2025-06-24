@@ -55,3 +55,16 @@ CREATE TABLE Dependent (
     FOREIGN KEY (SSN) REFERENCES Employee(SSN)
 );
 
+
+
+
+
+
+
+INSERT INTO Employee  (SSN,FN,LN,BD,Gender,Superviser,) VALUES 
+('Human Resources', 'Muscat'),
+('Engineering', 'Salalah'),
+('Finance', 'Sohar'),
+('IT', 'Nizwa'),
+('Marketing', 'Sur');
+
